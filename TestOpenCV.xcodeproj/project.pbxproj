@@ -17,12 +17,22 @@
 		672936A8173E2E51001EDEEF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 672936A7173E2E51001EDEEF /* Default@2x.png */; };
 		672936AA173E2E51001EDEEF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 672936A9173E2E51001EDEEF /* Default-568h@2x.png */; };
 		672936AD173E2E51001EDEEF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 672936AB173E2E51001EDEEF /* MainStoryboard.storyboard */; };
-		672936B0173E2E51001EDEEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 672936AF173E2E51001EDEEF /* ViewController.m */; };
+		672936B0173E2E51001EDEEF /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 672936AF173E2E51001EDEEF /* ViewController.mm */; };
 		672936B8173E2E51001EDEEF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672936B7173E2E51001EDEEF /* SenTestingKit.framework */; };
 		672936B9173E2E51001EDEEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67293693173E2E51001EDEEF /* UIKit.framework */; };
 		672936BA173E2E51001EDEEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67293695173E2E51001EDEEF /* Foundation.framework */; };
 		672936C2173E2E51001EDEEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 672936C0173E2E51001EDEEF /* InfoPlist.strings */; };
 		672936C5173E2E51001EDEEF /* TestOpenCVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 672936C4173E2E51001EDEEF /* TestOpenCVTests.m */; };
+		672936CF173E2E75001EDEEF /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672936CE173E2E75001EDEEF /* opencv2.framework */; };
+		672936D1173E3001001EDEEF /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672936D0173E3001001EDEEF /* Accelerate.framework */; };
+		672936D3173E3011001EDEEF /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672936D2173E3011001EDEEF /* AssetsLibrary.framework */; };
+		672936DA173E303F001EDEEF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672936D4173E303F001EDEEF /* AVFoundation.framework */; };
+		672936DB173E303F001EDEEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672936D5173E303F001EDEEF /* CoreGraphics.framework */; };
+		672936DC173E303F001EDEEF /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672936D6173E303F001EDEEF /* CoreImage.framework */; };
+		672936DD173E303F001EDEEF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672936D7173E303F001EDEEF /* CoreMedia.framework */; };
+		672936DE173E303F001EDEEF /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672936D8173E303F001EDEEF /* CoreVideo.framework */; };
+		672936DF173E303F001EDEEF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672936D9173E303F001EDEEF /* QuartzCore.framework */; };
+		672936E5173F5803001EDEEF /* AceOfDiamond.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 672936E4173F5803001EDEEF /* AceOfDiamond.bmp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,13 +61,23 @@
 		672936A9173E2E51001EDEEF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		672936AC173E2E51001EDEEF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		672936AE173E2E51001EDEEF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		672936AF173E2E51001EDEEF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		672936AF173E2E51001EDEEF /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		672936B6173E2E51001EDEEF /* TestOpenCVTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestOpenCVTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		672936B7173E2E51001EDEEF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		672936BF173E2E51001EDEEF /* TestOpenCVTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestOpenCVTests-Info.plist"; sourceTree = "<group>"; };
 		672936C1173E2E51001EDEEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		672936C3173E2E51001EDEEF /* TestOpenCVTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestOpenCVTests.h; sourceTree = "<group>"; };
 		672936C4173E2E51001EDEEF /* TestOpenCVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestOpenCVTests.m; sourceTree = "<group>"; };
+		672936CE173E2E75001EDEEF /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		672936D0173E3001001EDEEF /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Accelerate.framework; sourceTree = "<group>"; };
+		672936D2173E3011001EDEEF /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		672936D4173E303F001EDEEF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		672936D5173E303F001EDEEF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		672936D6173E303F001EDEEF /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		672936D7173E303F001EDEEF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		672936D8173E303F001EDEEF /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		672936D9173E303F001EDEEF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		672936E4173F5803001EDEEF /* AceOfDiamond.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = AceOfDiamond.bmp; path = ../../Desktop/AceOfDiamond.bmp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +88,15 @@
 				67293694173E2E51001EDEEF /* UIKit.framework in Frameworks */,
 				67293696173E2E51001EDEEF /* Foundation.framework in Frameworks */,
 				67293698173E2E51001EDEEF /* CoreGraphics.framework in Frameworks */,
+				672936CF173E2E75001EDEEF /* opencv2.framework in Frameworks */,
+				672936D1173E3001001EDEEF /* Accelerate.framework in Frameworks */,
+				672936D3173E3011001EDEEF /* AssetsLibrary.framework in Frameworks */,
+				672936DA173E303F001EDEEF /* AVFoundation.framework in Frameworks */,
+				672936DB173E303F001EDEEF /* CoreGraphics.framework in Frameworks */,
+				672936DC173E303F001EDEEF /* CoreImage.framework in Frameworks */,
+				672936DD173E303F001EDEEF /* CoreMedia.framework in Frameworks */,
+				672936DE173E303F001EDEEF /* CoreVideo.framework in Frameworks */,
+				672936DF173E303F001EDEEF /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +116,7 @@
 		67293687173E2E51001EDEEF = {
 			isa = PBXGroup;
 			children = (
+				672936E4173F5803001EDEEF /* AceOfDiamond.bmp */,
 				67293699173E2E51001EDEEF /* TestOpenCV */,
 				672936BD173E2E51001EDEEF /* TestOpenCVTests */,
 				67293692173E2E51001EDEEF /* Frameworks */,
@@ -106,6 +136,15 @@
 		67293692173E2E51001EDEEF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				672936D4173E303F001EDEEF /* AVFoundation.framework */,
+				672936D5173E303F001EDEEF /* CoreGraphics.framework */,
+				672936D6173E303F001EDEEF /* CoreImage.framework */,
+				672936D7173E303F001EDEEF /* CoreMedia.framework */,
+				672936D8173E303F001EDEEF /* CoreVideo.framework */,
+				672936D9173E303F001EDEEF /* QuartzCore.framework */,
+				672936D2173E3011001EDEEF /* AssetsLibrary.framework */,
+				672936D0173E3001001EDEEF /* Accelerate.framework */,
+				672936CE173E2E75001EDEEF /* opencv2.framework */,
 				67293693173E2E51001EDEEF /* UIKit.framework */,
 				67293695173E2E51001EDEEF /* Foundation.framework */,
 				67293697173E2E51001EDEEF /* CoreGraphics.framework */,
@@ -121,7 +160,7 @@
 				672936A3173E2E51001EDEEF /* AppDelegate.m */,
 				672936AB173E2E51001EDEEF /* MainStoryboard.storyboard */,
 				672936AE173E2E51001EDEEF /* ViewController.h */,
-				672936AF173E2E51001EDEEF /* ViewController.m */,
+				672936AF173E2E51001EDEEF /* ViewController.mm */,
 				6729369A173E2E51001EDEEF /* Supporting Files */,
 			);
 			path = TestOpenCV;
@@ -236,6 +275,7 @@
 				672936A8173E2E51001EDEEF /* Default@2x.png in Resources */,
 				672936AA173E2E51001EDEEF /* Default-568h@2x.png in Resources */,
 				672936AD173E2E51001EDEEF /* MainStoryboard.storyboard in Resources */,
+				672936E5173F5803001EDEEF /* AceOfDiamond.bmp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +312,7 @@
 			files = (
 				672936A0173E2E51001EDEEF /* main.m in Sources */,
 				672936A4173E2E51001EDEEF /* AppDelegate.m in Sources */,
-				672936B0173E2E51001EDEEF /* ViewController.m in Sources */,
+				672936B0173E2E51001EDEEF /* ViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +421,10 @@
 		672936C9173E2E51001EDEEF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestOpenCV/TestOpenCV-Prefix.pch";
 				INFOPLIST_FILE = "TestOpenCV/TestOpenCV-Info.plist";
@@ -392,6 +436,10 @@
 		672936CA173E2E51001EDEEF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestOpenCV/TestOpenCV-Prefix.pch";
 				INFOPLIST_FILE = "TestOpenCV/TestOpenCV-Info.plist";
@@ -453,6 +501,7 @@
 				672936CA173E2E51001EDEEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		672936CB173E2E51001EDEEF /* Build configuration list for PBXNativeTarget "TestOpenCVTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +510,7 @@
 				672936CD173E2E51001EDEEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
